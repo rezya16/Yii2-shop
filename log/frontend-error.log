@@ -207,3 +207,471 @@ yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/fronte
 Stack trace:
 #0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
 #1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /category/15 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000"
+2020/05/21 15:54:45 [error] 19#19: *401 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=2 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/21 15:56:31 [error] 19#19: *405 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=2 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/21 15:56:36 [error] 19#19: *408 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=3 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/21 15:57:31 [error] 19#19: *412 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=3 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/21 15:57:31 [error] 19#19: *412 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=3 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/21 15:57:32 [error] 19#19: *412 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=3 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/21 16:03:53 [error] 19#19: *417 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=3 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/21 16:03:54 [error] 19#19: *417 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=3 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/21 16:08:35 [error] 19#19: *430 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=2 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/21 16:58:11 [error] 19#19: *489 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=2 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/21 17:04:46 [error] 19#19: *494 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=3 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/21 17:38:53 [error] 19#19: *504 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=3 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/21 19:06:40 [error] 19#19: *509 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=2 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/21 19:09:32 [error] 19#19: *516 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=2 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/21 19:11:18 [error] 19#19: *519 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=2 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/21 19:15:17 [error] 19#19: *522 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=2 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/21 19:15:19 [error] 19#19: *522 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=2 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/21 19:15:21 [error] 19#19: *523 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=3 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/22 06:53:43 [error] 19#19: *537 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/models/Cart.php on line 11. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/models/Cart.php on line 11. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=3 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/22 06:54:06 [error] 19#19: *540 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/models/Cart.php on line 11. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/models/Cart.php on line 11. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=3 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/22 06:54:10 [error] 19#19: *542 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/models/Cart.php on line 11. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/models/Cart.php on line 11. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=3 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/22 10:16:30 [error] 16#16: *545 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=3 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/22 10:16:35 [error] 19#19: *548 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=4 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/22 10:16:50 [error] 19#19: *551 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=4 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/22 10:16:55 [error] 19#19: *554 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=5 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/22 10:17:05 [error] 19#19: *556 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=5 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/22 10:17:07 [error] 19#19: *558 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=6 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/22 10:17:13 [error] 19#19: *560 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=2 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/22 10:17:24 [error] 19#19: *563 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=2 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/22 10:18:06 [error] 19#19: *566 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/base" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=2 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/22 10:25:07 [error] 19#19: *570 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: session_id(): Cannot change session id when headers already sent in /var/www/app/vendor/yiisoft/yii2/web/Session.php:279
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'session_id(): C...', '/var/www/app/ve...', 279, Array)
+#1 /var/www/app/vendor/yiisoft/yii2/web/Session.php(279)" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=2 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/22 10:25:20 [error] 19#19: *572 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: session_id(): Cannot change session id when headers already sent in /var/www/app/vendor/yiisoft/yii2/web/Session.php:279
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'session_id(): C...', '/var/www/app/ve...', 279, Array)
+#1 /var/www/app/vendor/yiisoft/yii2/web/Session.php(279)" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=2 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/22 10:25:29 [error] 19#19: *576 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: session_id(): Cannot change session id when headers already sent in /var/www/app/vendor/yiisoft/yii2/web/Session.php:279
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'session_id(): C...', '/var/www/app/ve...', 279, Array)
+#1 /var/www/app/vendor/yiisoft/yii2/web/Session.php(279)" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=2 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/22 10:25:31 [error] 19#19: *578 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: session_id(): Cannot change session id when headers already sent in /var/www/app/vendor/yiisoft/yii2/web/Session.php:279
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'session_id(): C...', '/var/www/app/ve...', 279, Array)
+#1 /var/www/app/vendor/yiisoft/yii2/web/Session.php(279)" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=2 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/22 10:25:32 [error] 19#19: *578 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: session_id(): Cannot change session id when headers already sent in /var/www/app/vendor/yiisoft/yii2/web/Session.php:279
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'session_id(): C...', '/var/www/app/ve...', 279, Array)
+#1 /var/www/app/vendor/yiisoft/yii2/web/Session.php(279)" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=2 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
+2020/05/22 10:25:36 [error] 19#19: *581 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/app/frontend/functions.php on line 4. in /var/www/app/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/app/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: session_id(): Cannot change session id when headers already sent in /var/www/app/vendor/yiisoft/yii2/web/Session.php:279
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'session_id(): C...', '/var/www/app/ve...', 279, Array)
+#1 /var/www/app/vendor/yiisoft/yii2/web/Session.php(279)" while reading upstream, client: 192.168.32.1, server: , request: "GET /cart/add?id=2 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost:8000", referrer: "http://localhost:8000/"
